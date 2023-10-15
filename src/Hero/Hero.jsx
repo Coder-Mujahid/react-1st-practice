@@ -2,7 +2,7 @@ import bg from '../../img/Blue Artistic Instagram Profile Picture.png'
 
 function Hero(){
     return(
-        <div className='w-11/12 mx-auto min-h-screen bg-gradient-to-r from-slate-50 to-slate-300 items-center  grid grid-cols-3 gap-5'>
+        <div className='w-11/12 mx-auto min-h-screen bg-gradient-to-r from-slate-50 to-slate-300 items-center rounded shadow md:grid grid-cols-3 gap-5'>
             <div className='col-span-2 p-5'>
                 <p className="text-lg pb-2 font-medium text-black capitalize">Hello, Welcome my self</p>
                 <h2 className="text-4xl font-bold capitalize pb-2 text-lime-500">md mujahid islam</h2>
@@ -15,6 +15,7 @@ function Hero(){
                     <li><a target='_blank' href="https://www.facebook.com/"><i className='bx bxl-facebook-square text-4xl text-blue-600 hover:text-blue-500' ></i></a></li>
                 </ul>
                 <button className="btn-ghost w-28 bg-slate-400 pb-2 text-base font-semibold text-black py-2 rounded duration-75 hover:bg-slate-300">contact</button>
+                
             </div>
 
             <div>
