@@ -12,36 +12,35 @@ export default function Skill() {
         <h2 className='text-5xl text-blue-900 font-semibold uppercase text-center'>skill</h2>
         <div className='lg:grid grid-cols-7 gap-5 min-h-screen items-center mx-auto'>
             <aside className='col-span-3'>
-                <img className='w-full p-5' src={img} alt="image" />
+                <img className='w-full md:p-5 p-10 mb-5' src={img} alt="image" />
             </aside>
 
             <div className='md:grid grid-cols-2 gap-3 col-span-4 w-full'>
-                <Skilldata></Skilldata>
-                <Skilldata></Skilldata>
-                <Skilldata></Skilldata>
-                <Skilldata></Skilldata>
-                <Skilldata></Skilldata>
-                <Skilldata></Skilldata>
+                <Skilldata name={'HTM5'} title={'hypertext markup language'} img={img1} data={'95%'}></Skilldata>
+                <Skilldata name={'CSS3'} title={'Cascading Style Sheet'} img={img2} data={'95%'}></Skilldata>
+                <Skilldata name={'Bootstrap'} title={'Bootstrap is a collection of HTML, CSS, and JavaScript.'} img={img3} data={'95%'}></Skilldata>
+                <Skilldata name={'Tailwind CSS'} title={'Tailwind is a CSS framework'} img={img4} data={'95%'}></Skilldata>
+                <Skilldata name={'JavaScript'} title={'JavaScript is a lightweight programming language'} img={img5} data={'95%'}></Skilldata>
+                <Skilldata name={'ux Design'} title={'Responsive web layout'} img={img6} data={'95%'}></Skilldata>
             </div>
         </div>
     </div>
   )
 }
-function Skilldata() {
+function Skilldata({name,title,img,data}) {
+
     return (
         <>
-            <ul>
-                <li className='flex w-auto py-2 px-5 border-2 border-slate-500 rounded-lg mb-2'>
-                    <img className='w-20 pr-3' src={img1} alt="img" />
+                <li className='flex w-auto py-2 px-5 border-2 border-slate-500 shadow shadow-black rounded-lg mb-4'>
+                    <img className='w-20 pr-3' src={img} alt="img" />
                 <div className='w-full'>
-                    <h3 className='text-xl text-black font-semibold'>HTML</h3>
-                    <p className='text-sm mb-3 font-medium text-black capitalize'>hypertext markup language</p>
+                    <h3 className='text-xl text-red-500 font-semibold'>{name}</h3>
+                    <p className='text-sm mb-3 font-medium text-black capitalize'>{title}</p>
                     <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-                    <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style={{ width: '95%' }}>95%</div>
+                    <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style={{ width: '95%' }}>{data}</div>
                     </div>
                 </div>
                 </li>
-            </ul>
         </>
     )        
 }
