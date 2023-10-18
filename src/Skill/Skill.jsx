@@ -15,12 +15,12 @@ export default function Skill() {
                 <img className='w-full md:p-5 p-10 mb-5' src={img} alt="image" />
             </aside>
 
-            <div data-aos="fade-left" className='md:grid grid-cols-2 gap-3 col-span-4 w-full'>
+            <div className='md:grid grid-cols-2 gap-3 col-span-4 w-full'>
                 <Skilldata name={'HTM5'} title={'hypertext markup language'} img={img1} data={'95%'}></Skilldata>
                 <Skilldata name={'CSS3'} title={'Cascading Style Sheet'} img={img2} data={'95%'}></Skilldata>
                 <Skilldata name={'Bootstrap'} title={'Bootstrap is a collection of HTML, CSS, and JavaScript.'} img={img3} data={'95%'}></Skilldata>
                 <Skilldata name={'Tailwind CSS'} title={'Tailwind is a CSS framework'} img={img4} data={'95%'}></Skilldata>
-                <Skilldata name={'JavaScript'} title={'JavaScript is a lightweight programming language'} img={img5} data={'95%'}></Skilldata>
+                <Skilldata name={'JavaScript'} title={'JavaScript is a scripting language'} img={img5} data={'95%'}></Skilldata>
                 <Skilldata name={'ux Design'} title={'Responsive web layout'} img={img6} data={'95%'}></Skilldata>
             </div>
         </div>
@@ -31,7 +31,7 @@ function Skilldata({name,title,img,data}) {
 
     return (
         <>
-                <li className='flex w-auto py-2 px-5 shadow shadow-black rounded-lg mb-4'>
+                <li  data-aos="fade-left" className='flex w-auto py-2 px-5 shadow shadow-black rounded-lg mb-4'>
                     <img className='w-20 pr-3' src={img} alt="img" />
                 <div className='w-full'>
                     <h3 className='text-xl text-red-500 font-semibold'>{name}</h3>

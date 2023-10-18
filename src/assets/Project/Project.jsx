@@ -9,8 +9,8 @@ import img6 from '../../../img/Responsive bike shop .png'
 export default function Project() {
   return (
     <div className='w-11/12 mx-auto bg-gradient-to-r from-slate-50 to-slate-300 p-5'>
-        <h2 className='text-5xl text-blue-900 font-semibold uppercase text-center mb-10'>my projects</h2>
-            <div className='grid grid-cols-3 gap-4'>
+        <h2 className='md:text-5xl text-2xl text-blue-900 font-semibold uppercase text-center mb-10'>my projects</h2>
+            <div className='md:grid grid-cols-3 lg:grid-cols-3 gap-4'>
             <Projectdata img={img1} name={'Portfolio 02'} bio={'Hello there! I am Md Mujahidul islam, a passionate frontend developer'} link={'https://coder-mujahid.github.io/portfolio_02/'}></Projectdata>
 
             <Projectdata img={img2} name={'samsung shop API'} bio={' Hello there! Hear is now Brand no 1 phone shop SAMSUNG '} link={'https://coder-mujahid.github.io/I_Phone_Api/'}></Projectdata>
