@@ -31,7 +31,7 @@ function Skilldata({name,title,img,data}) {
 
     return (
         <>
-                <li className='flex w-auto py-2 px-5 border-2 border-slate-500 shadow shadow-black rounded-lg mb-4'>
+                <li className='flex w-auto py-2 px-5 shadow shadow-black rounded-lg mb-4'>
                     <img className='w-20 pr-3' src={img} alt="img" />
                 <div className='w-full'>
                     <h3 className='text-xl text-red-500 font-semibold'>{name}</h3>
