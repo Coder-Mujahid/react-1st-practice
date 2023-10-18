@@ -10,12 +10,12 @@ export default function Skill() {
   return (
     <div className='bg-gradient-to-r from-slate-50 to-slate-300 p-5 w-11/12 mx-auto'>
         <h2 className='text-5xl text-blue-900 font-semibold uppercase text-center'>skill</h2>
-        <div className='lg:grid grid-cols-7 gap-5 min-h-screen items-center mx-auto'>
+        <div data-aos="fade-right" className='lg:grid grid-cols-7 gap-5 min-h-screen items-center mx-auto'>
             <aside className='col-span-3'>
                 <img className='w-full md:p-5 p-10 mb-5' src={img} alt="image" />
             </aside>
 
-            <div className='md:grid grid-cols-2 gap-3 col-span-4 w-full'>
+            <div data-aos="fade-left" className='md:grid grid-cols-2 gap-3 col-span-4 w-full'>
                 <Skilldata name={'HTM5'} title={'hypertext markup language'} img={img1} data={'95%'}></Skilldata>
                 <Skilldata name={'CSS3'} title={'Cascading Style Sheet'} img={img2} data={'95%'}></Skilldata>
                 <Skilldata name={'Bootstrap'} title={'Bootstrap is a collection of HTML, CSS, and JavaScript.'} img={img3} data={'95%'}></Skilldata>

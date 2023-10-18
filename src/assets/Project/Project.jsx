@@ -2,6 +2,8 @@ import img1 from '../../../img/portfolio.png'
 import img2 from '../../../img/samsung shop API.png'
 import img3 from '../../../img/REST country API.png'
 import img4 from '../../../img/calculator with js.png'
+import img5 from '../../../img/Simple bank function.png'
+import img6 from '../../../img/Responsive bike shop .png'
 
 
 export default function Project() {
@@ -16,6 +18,10 @@ export default function Project() {
             <Projectdata img={img3} name={'REST country API'} bio={' Hello there! Hear is Rest api projects to find your destination country and show details '} link={'https://coder-mujahid.github.io/REST_API_with_Modal/'}></Projectdata>
 
             <Projectdata img={img4} name={'calculator_with_js'} bio={' Hello there! Hear is calculator_with_js projects to caculate your number '} link={'https://coder-mujahid.github.io/calculator_with_js/'}></Projectdata>
+
+            <Projectdata img={img5} name={'Simple bank function'} bio={' Hello there! Hear is Simple bank function projects to use some banking fecilites '} link={'https://coder-mujahid.github.io/bank_counter/'}></Projectdata>
+
+            <Projectdata img={img6} name={'Responsive bike shop '} bio={' Hello there! Hear is Responsive bike shop projects to use some CSS framework Tailwind CSS '} link={'https://coder-mujahid.github.io/responsive_bike_shop_site/'}></Projectdata>
             </div>
     </div>
   )
@@ -23,7 +29,7 @@ export default function Project() {
 function Projectdata({img,name,bio,link}) {
   return (
     <div>
-        <div className="card glass mb-3 shadow-lg shadow-black min-h-full">
+        <div data-aos="fade-left" className="card glass mb-3 shadow-lg shadow-black min-h-full">
             <figure><img src={img} alt="car!"/></figure>
             <div className="card-body">
                 <h2 className="card-title">{name}</h2>
