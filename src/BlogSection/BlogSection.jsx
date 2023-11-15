@@ -14,13 +14,14 @@ const BlogSection = () => {
               <div className="p-6">
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                <a href="#" className="text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <div className='flex justify-between'>
+                <a href="#" className="text-indigo-500 inline-flex items-center ">Learn More</a>
+
+                <div className='flex gap-2 w-auto'>
+                    <span className='flex items-center'><i className='bx bxs-user-circle' ></i>  30</span>
+                    <span className='flex items-center'><i className='bx bx-message-rounded-dots' ></i>  30</span>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -32,13 +33,14 @@ const BlogSection = () => {
               <div className="p-6">
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                <a href="#" className="text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <div className='flex justify-between'>
+                <a href="#" className="text-indigo-500 inline-flex items-center ">Learn More</a>
+
+                <div className='flex gap-2 w-auto'>
+                    <span className='flex items-center'><i className='bx bxs-user-circle' ></i>  30</span>
+                    <span className='flex items-center'><i className='bx bx-message-rounded-dots' ></i>  30</span>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -50,13 +52,14 @@ const BlogSection = () => {
               <div className="p-6">
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                <a href="#" className="text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <div className='flex justify-between'>
+                <a href="#" className="text-indigo-500 inline-flex items-center ">Learn More</a>
+
+                <div className='flex gap-2 w-auto'>
+                    <span className='flex items-center'><i className='bx bxs-user-circle' ></i>  30</span>
+                    <span className='flex items-center'><i className='bx bx-message-rounded-dots' ></i>  30</span>
+                </div>
+                </div>
               </div>
             </div>
           </div>
