@@ -1,8 +1,7 @@
-import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="text-gray-600 body-font relative">
+    <section className="text-gray-600 body-font relative w-11/12 mx-auto bg-gradient-to-r from-slate-50 to-slate-300">
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
@@ -14,8 +13,7 @@ const Contact = () => {
             marginHeight="0"
             marginWidth="0"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13274.598351015944!2d90.42999658827215!3d23.76643435712345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78c71227c15%3A0x9f0818437919415d!2sAftab%20Nagar%2C%20Dhaka!5e1!3m2!1sen!2sbd!4v1700072490905!5m2!1sen!2sbd"
           ></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -32,7 +30,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <div className="lg:w-1/3 md:w-1/2 p-3 rounded-md bg-gradient-to-r from-slate-300 to-slate-50 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
           <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
           <div className="relative mb-4">
