@@ -2,10 +2,10 @@ import React from 'react';
 
 const BlogSection = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-gradient-to-r from-slate-50 to-slate-300 w-11/12 mx-auto">
         <h2 className='text-5xl text-blue-900 font-semibold pt-10 uppercase text-center'>my blogs</h2>
 
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-24 mx-auto ">
         <div className="flex flex-wrap -m-4">
           {/* Blog 1 */}
           <div className="p-4 md:w-1/3">
