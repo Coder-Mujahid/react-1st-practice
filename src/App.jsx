@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Contact from './Contact/Contact'
 import BlogSection from './BlogSection/BlogSection'
+import CopyrightText from './CopyrightText/CopyrightText'
 // ..
 AOS.init();
 
@@ -24,6 +25,7 @@ function App() {
       <Project></Project>
       <BlogSection></BlogSection>
       <Contact></Contact>
+      <CopyrightText></CopyrightText>
     </>
   )
 }
