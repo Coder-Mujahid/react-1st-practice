@@ -4,7 +4,7 @@ const Contact = () => {
     <>
     
         <section className="text-gray-600 body-font relative w-11/12 mx-auto bg-gradient-to-r from-slate-50 to-slate-300">
-        <h2 className='text-5xl text-blue-900 font-semibold pt-10 uppercase text-center'>Contact me</h2>
+        <h2 className='text-5xl text-blue-800 font-semibold pt-10 uppercase text-center'>Contact me</h2>
 
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
