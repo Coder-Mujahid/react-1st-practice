@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
         {/* massage section */}
         <div className="lg:w-1/3 md:w-1/2 p-4 rounded-md bg-gradient-to-r from-slate-300 to-slate-50 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact me </h2>
+          <h2 className="text-gray-800 text-lg mb-1 font-medium title-font">Contact me </h2>
           <p className="leading-relaxed mb-5 text-gray-600">If you like to know more about my work or process feel free to get in touch.</p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-600">
